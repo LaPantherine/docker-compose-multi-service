@@ -2,19 +2,21 @@
 
 This project demonstrates a simple DevOps architecture using Docker Compose.
 
-Stack:
-- Python HTTP server
-- Nginx reverse proxy
-- Docker Compose
+## Tech Stack
 
-Architecture:
+- Docker
+- Docker Compose
+- Nginx
+- Python
+
+## Architecture
 
 Browser → Nginx → Python container
 
-How to run:
+## How to run
 
 docker compose up --build
 
-Open in browser:
+## Open in browser
 
 http://localhost:8083
